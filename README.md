@@ -14,6 +14,8 @@ Below is the link for demonstration video of how the web application works and t
 
 Video link : https://www.youtube.com/watch?v=AuelUl7j47w
 
+for the word2vec embedding we have used Pretrained glove vectors you can download it by visiting the link : https://nlp.stanford.edu/projects/glove/
+
 I have explained how to deploy the application to localhost using flask API in the above given blog. 
 
 Now let us look at how to deploy it in AWS EC2 instance.
