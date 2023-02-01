@@ -1,0 +1,40 @@
+<html>
+
+ <style>
+ h1 {
+  width:100%: 
+  float: center;
+  display: block;
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px; 
+  height:100px;
+}
+
+img {
+   background-color: #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  
+}
+ </style>
+
+ <body>
+ 	 {% if prediction == "Negative" %}
+		 
+	     <h1> THE GIVEN QUERY BELONGS TO CLASS 0 MEANS THIS IS NOT A SQL INJECTION QUERY   </h1>
+		
+
+	
+	  {% else %}
+		<h1> THE GIVEN QUERY BELONGS TO CLASS 1 MEANS THIS IS A SQL INJECTION QUERY   </h1>
+	
+	{% endif %}
+ </body>
+ </html>
+ 
+ 

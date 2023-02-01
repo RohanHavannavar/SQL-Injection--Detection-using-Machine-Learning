@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: cursive;
+  }
+
+ input,
+    textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+ label {
+    line-height: 1.9rem;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+
+ fieldset {
+   padding: 20px 40px;
+ }
